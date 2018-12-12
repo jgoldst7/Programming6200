@@ -1,0 +1,5 @@
+assignment7
+
+	This assignment has two different ways of using object oriented programming in Perl. We have a class and 2 programs using old school object oriented perl (Kinases.pm, kinaseMap1.pl, and kinaseMap2.pl), and a class and 2 programs using the Moose package (MooseKinases.pm, kinaseMooseMap1.pl, kinaseMooseMap2.pl). These 2 different ways achieve the same results. They take in a file containing mapping information of human protein kinases, taken from the OMIM Gene Map database. They turn this file into an object with an array of hashes, with each array containing a line of the file (hash is each value within the line). It then gives the user the ability to print the output to a file, and create a new object with filtered specifications for any of the values within the file. both classes and driver programs contain test scripts. There is also a testing file for these test scripts and a cover_db containg information about the coverage of the test scripts.
+
+	
